@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: Big-John;
+    src: url(../font/big-john.otf);
+}
+
+p {
+	color: white;
+	line-height: 15px;
+	padding-top: 10px;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.pb-5, .py-5 {
+    padding-bottom: 2rem !important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 2rem !important;
+}
+
+img {
+	
+	padding-bottom: 60px;
+	width: 90vh;
+	height: auto;
+	display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.carousel-item {
+	height: auto;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+
+	img {
+		width: 100%;
+		height: auto;
+		
+	}
+}
+
+.bg-dark {
+	background-color: rgba(232, 240, 81, 0.79) !important;
+}
+
+.bg {
+	background-color: rgba(205, 192, 14, 0.8);
+}
+
+.navbar {
+	font-family: Big-John;
+	display: none;
+}
