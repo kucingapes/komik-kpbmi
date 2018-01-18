@@ -71,3 +71,7 @@ img {
 	font-family: Big-John;
 	display: none;
 }
+
+.carousel-indicators {
+	display: none;
+}
